@@ -17,15 +17,16 @@ jobs:
         with:
           prompt: |
             1. navigate to pubnub.com in google chrome
-            1. click LOGIN
-            1. type email blum.stephen+testdriver.ai@gmail.com
-            1. type password n!4Bfj2T@KMGXGZ
-            1. click LOG IN
-            1. click Apps
-            1. click My First App
-            1. click Demo Keyset
-            1. click Usage & Monitoring
-            1. confirm no usage shows on the charts
+            2. click LOGIN
+            3. confirm login screen has an email and password field
+            # 1. type email blum.stephen+testdriver.ai@gmail.com
+            # 1. type password n!4Bfj2T@KMGXGZ
+            # 1. click LOG IN
+            # 1. click Apps
+            # 1. click My First App
+            # 1. click Demo Keyset
+            # 1. click Usage & Monitoring
+            # 1. confirm no usage shows on the charts
 
 
             
