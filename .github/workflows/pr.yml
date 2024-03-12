@@ -7,14 +7,6 @@ on:
     branches: ["main"]
   workflow_dispatch:
 
-# 1. type in the email: ${{ secrets.LOGIN_EMAIL }}
-# 1. type in the password: ${{ secrets.LOGIN_PASSWORD }}
-# 1. click LOG IN
-# 1. click Apps
-# 1. click My First App
-# 1. click Demo Keyset
-# 1. click Usage & Monitoring
-# 1. confirm no usage shows on the charts
 
 jobs:
   test:
@@ -28,6 +20,14 @@ jobs:
             1. navigate to pubnub.com in google chrome
             2. click LOGIN
             3. confirm login screen has an email and password field
+            4. type in the email: ${{ secrets.LOGIN_EMAIL }}
+            5. type in the password: ${{ secrets.LOGIN_PASSWORD }}
+            6. click LOG IN
+            7. click Apps
+            8. click My First App
+            9. click Demo Keyset
+            10. click Usage & Monitoring
+            11. confirm no usage shows on the charts
 
 
             
