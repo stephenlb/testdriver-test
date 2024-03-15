@@ -16,6 +16,14 @@ jobs:
         id: testdriver
         with:
           prompt: |
-            1. navigate to youtube.com in google chrome
-            1. search for cat videos
-            1. click the first one
+            1. navigate to `pubnub.com` in google chrome
+            2. click `LOGIN`
+            3. confirm login screen has an email and password field
+            4. type in the email: testdriver@email10p.org
+            5. type in the password: Testdriver@email10p.org
+            6. click the red button labelled `LOG IN`
+            7. click `Apps`
+            8. click `My First App`
+            9. click `Demo Keyset`
+            10. click `Usage & Monitoring`
+            11. confirm no usage shows on the charts
