@@ -18,18 +18,12 @@ jobs:
         with:
           prompt: |
             1. navigate to pubnub.com in google chrome
-            2. click LOGIN
-            3. confirm login screen has an email and password field
-            4. type in the email: ${{ secrets.LOGIN_EMAIL }}
-            5. type in the password: ${{ secrets.LOGIN_PASSWORD }}
-            6. click LOG IN
-            7. click Apps
-            8. click My First App
-            9. click Demo Keyset
-            10. click Usage & Monitoring
-            11. confirm no usage shows on the charts
-
-
-            
-
-            
+            2. click: LOGIN
+            3. focus the email field and type: testdriver@email10p.org
+            4. focus the password field and type: Testdriver@email10p.org
+            5. press Return on the keyboard
+            6. click Apps
+            7. click My First App
+            8. click Demo Keyset
+            9. click Usage & Monitoring
+            10. look at the charts, confirm there are is no data shown and the charts are empty
