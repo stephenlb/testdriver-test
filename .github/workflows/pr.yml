@@ -19,8 +19,8 @@ jobs:
           prompt: |
             1. navigate to pubnub.com in google chrome
             2. click: LOGIN
-            3. focus the email field and type: testdriver@email10p.org
-            4. focus the password field and type: Testdriver@email10p.org
+            3. focus the email field and type: ${{ secrets.LOGIN_EMAIL }}
+            4. focus the password field and type: ${{ secrets.LOGIN_PASSWORD }}           
             5. press Return on the keyboard
             6. click Apps
             7. click My First App
