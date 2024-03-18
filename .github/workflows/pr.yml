@@ -18,6 +18,10 @@ jobs:
           prompt: |
             1. navigate to pubnub.com in google chrome
             2. click: LOGIN
-            3. type in the email: testdriver@email10p.org
-            4. type in the password: Testdriver@email10p.org
-            5. click the red button with label: LOG IN
+            3. focus the email field and type: testdriver@email10p.org
+            4. focus the password field and type: Testdriver@email10p.org
+            5. press Return on the keyboard
+            6. click Apps
+            7. click My First App
+            8. click Demo Keyset
+            9. click Usage & Monitoring
