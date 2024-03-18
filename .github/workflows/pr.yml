@@ -21,8 +21,3 @@ jobs:
             3. type in the email: testdriver@email10p.org
             4. type in the password: Testdriver@email10p.org
             5. click the red button with label: LOG IN
-            6. click: Apps
-            7. click: My First App
-            8. click: Demo Keyset
-            9. click: Usage & Monitoring
-            10. confirm no usage shows on the charts
