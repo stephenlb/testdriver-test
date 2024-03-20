@@ -7,6 +7,10 @@ on:
     branches: ["main"]
   workflow_dispatch:
 
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
   test:
     name: "TestDriver"
@@ -25,3 +29,10 @@ jobs:
             7. click My First App
             8. click Demo Keyset
             9. click Usage & Monitoring
+      - name: Create or Update Comment
+        uses: peter-evans/create-or-update-comment@v2
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            ## TestDriver Summary
+            ${{ steps.testdriver.outputs.summary }}
