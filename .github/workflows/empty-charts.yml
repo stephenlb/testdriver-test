@@ -1,4 +1,4 @@
-name: TestDriver.ai
+name: TestDriver.ai - Empty Charts
 
 on:
   push:
@@ -10,7 +10,7 @@ on:
 
 jobs:
   test:
-    name: "TestTestDriver"
+    name: "TestDriver - Empty Charts"
     runs-on: ubuntu-latest
     steps:
       - uses: dashcamio/testdriver@main
