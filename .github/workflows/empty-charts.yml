@@ -17,7 +17,7 @@ jobs:
         id: testtestdriver
         with:
           prompt: |
-            1. navigate to pubnub.com
+            1. navigate to 'pubnub.com'
             2. click: LOGIN
             3. focus the email field and type: ${{ secrets.LOGIN_EMAIL }}
             4. focus the password field and type: ${{ secrets.LOGIN_PASSWORD }}           
