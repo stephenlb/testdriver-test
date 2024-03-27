@@ -29,3 +29,6 @@ jobs:
             1. click Demo Keyset
             1. confirm you can see a 'Publish Key'
             1. confirm you can see a 'Subscribe Key'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FORCE_COLOR: "3"

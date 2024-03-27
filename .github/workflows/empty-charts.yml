@@ -27,3 +27,6 @@ jobs:
             8. click Demo Keyset
             9. click Usage & Monitoring
             10. scroll and look at all the charts, confirm there are no lines or bars showing activity. The charts should appear empty.
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FORCE_COLOR: "3"
