@@ -17,15 +17,18 @@ jobs:
         id: testtestdriver
         with:
           prompt: |
-            1. navigate to pubnub.com
-            1. click "Try for free"
+            1. navigate to 'pubnub.com'
+            1. click 'Try for free'
             1. focus the First name field and enter a fake first name
             1. focus the Last name field and enter a fake last name
             1. focus the Email field and enter a fake email
             1. focus the Password field and enter a fake password that is 10 characters long
-            1. click "REGISTER"
+            1. click 'REGISTER'
             1. click Apps in the left nav
             1. click My First App
             1. click Demo Keyset
-            1. confirm you can see a "Publish Key"
-            1. confirm you can see a "Subscribe Key"
+            1. confirm you can see a 'Publish Key'
+            1. confirm you can see a 'Subscribe Key'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FORCE_COLOR: "3"
